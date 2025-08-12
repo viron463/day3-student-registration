@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+/* Animation Box */
+.animation-box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 20px auto;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Form */
+.form-section {
+    padding: 20px;
+}
+input, textarea, button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+}
